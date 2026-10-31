@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" width="720" height="520" role="img" aria-label="An agent discovering, invoking and auditing skills in a central skill hub">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#0e201c" opacity="0.07" />
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a958a" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#0a958a" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffdf8" />
+      <stop offset="100%" stop-color="#f1ece1" />
+    </linearGradient>
+    <linearGradient id="hub" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#17bfae" />
+      <stop offset="100%" stop-color="#07877d" />
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0e201c" flood-opacity="0.1" />
+    </filter>
+  </defs>
+
+  <rect width="720" height="520" fill="url(#dots)" />
+  <ellipse cx="360" cy="286" rx="310" ry="210" fill="url(#glow)" />
+
+  <!-- Agent -->
+  <g filter="url(#soft)">
+    <rect x="232" y="44" width="256" height="90" rx="20" fill="url(#panel)" stroke="#0e201c" stroke-opacity="0.14" />
+  </g>
+  <g fill="none" stroke="#0a958a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="256" y="66" width="34" height="30" rx="9" />
+    <path d="M264 96v8M282 96v8" />
+    <circle cx="266" cy="79" r="2.4" fill="#0a958a" stroke="none" />
+    <circle cx="280" cy="79" r="2.4" fill="#0a958a" stroke="none" />
+    <path d="M290 74h8M290 86h8" opacity="0.55" />
+  </g>
+  <text x="312" y="76" font-family="Manrope, sans-serif" font-size="18" font-weight="700" fill="#0e201c">AGENT</text>
+  <text x="312" y="98" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#687a75" letter-spacing="0.4">PLAN · PICK · CALL</text>
+  <text x="312" y="118" font-family="'JetBrains Mono', monospace" font-size="10" fill="#0a958a" letter-spacing="0.3">tenant: acme</text>
+
+  <!-- Agent chips -->
+  <g font-family="'JetBrains Mono', monospace" font-size="10.5" letter-spacing="0.6">
+    <rect x="512" y="56" width="124" height="26" rx="13" fill="#0a958a" fill-opacity="0.1" stroke="#0a958a" stroke-opacity="0.4" />
+    <text x="532" y="73" fill="#0a958a">DISCOVER</text>
+    <rect x="512" y="92" width="124" height="26" rx="13" fill="#2f5fc8" fill-opacity="0.08" stroke="#2f5fc8" stroke-opacity="0.4" />
+    <text x="536" y="109" fill="#2f5fc8">INVOKE</text>
+  </g>
+
+  <!-- spokes -->
+  <g stroke="#0a958a" stroke-opacity="0.28" stroke-width="1.4" stroke-dasharray="4 5">
+    <path d="M360 190V150" />
+    <path d="M292 210 236 176" />
+    <path d="M428 210 484 176" />
+    <path d="M288 268H232" />
+    <path d="M432 268H488" />
+    <path d="M318 330 288 372" />
+    <path d="M402 330 432 372" />
+  </g>
+
+  <!-- hub -->
+  <g filter="url(#soft)">
+    <rect x="288" y="196" width="144" height="144" rx="38" fill="url(#hub)" />
+  </g>
+  <rect x="300" y="208" width="120" height="120" rx="30" fill="none" stroke="#f2fbf8" stroke-opacity="0.38" stroke-dasharray="5 6" />
+  <g fill="#f2fbf8">
+    <rect x="326" y="236" width="16" height="16" rx="4" />
+    <rect x="348" y="236" width="16" height="16" rx="4" opacity="0.75" />
+    <rect x="370" y="236" width="16" height="16" rx="4" opacity="0.5" />
+    <rect x="326" y="258" width="16" height="16" rx="4" opacity="0.75" />
+    <rect x="348" y="258" width="16" height="16" rx="4" />
+    <rect x="370" y="258" width="16" height="16" rx="4" opacity="0.75" />
+  </g>
+  <text x="360" y="304" text-anchor="middle" font-family="Manrope, sans-serif" font-size="15" font-weight="800" fill="#f2fbf8" letter-spacing="0.5">SKILL HUB</text>
+  <text x="360" y="320" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.6" fill="#d8f6ef" letter-spacing="0.4">REGISTRY · POLICY</text>
+
+  <!-- module cards -->
+  <g font-family="'JetBrains Mono', monospace">
+    <g filter="url(#soft)">
+      <rect x="196" y="128" width="118" height="44" rx="12" fill="url(#panel)" stroke="#0e201c" stroke-opacity="0.14" />
+      <rect x="446" y="128" width="118" height="44" rx="12" fill="url(#panel)" stroke="#0e201c" stroke-opacity="0.14" />
+      <rect x="172" y="246" width="118" height="44" rx="12" fill="url(#panel)" stroke="#0e201c" stroke-opacity="0.14" />
+      <rect x="430" y="246" width="118" height="44" rx="12" fill="url(#panel)" stroke="#0e201c" stroke-opacity="0.14" />
+      <rect x="212" y="372" width="118" height="44" rx="12" fill="url(#panel)" stroke="#0e201c" stroke-opacity="0.14" />
+      <rect x="390" y="372" width="118" height="44" rx="12" fill="url(#panel)" stroke="#0e201c" stroke-opacity="0.14" />
+    </g>
+    <g font-size="10.5" fill="#0e201c">
+      <text x="210" y="147">refund</text>
+      <text x="460" y="147">search</text>
+      <text x="186" y="265">sql.read</text>
+      <text x="444" y="265">email</text>
+      <text x="226" y="391">scrape</text>
+      <text x="404" y="391">ticket</text>
+    </g>
+    <g font-size="8.8" fill="#687a75">
+      <text x="210" y="162">v1.4.0</text>
+      <text x="460" y="162">v2.0.1</text>
+      <text x="186" y="280">v1.2.3</text>
+      <text x="444" y="280">v1.1.0</text>
+      <text x="226" y="406">v0.9.2</text>
+      <text x="404" y="406">v3.1.0</text>
+    </g>
+  </g>
+
+  <!-- sandbox locks -->
+  <g fill="#d94a27">
+    <circle cx="277" cy="259" r="9" />
+    <circle cx="317" cy="385" r="9" />
+  </g>
+  <g fill="none" stroke="#fffdf8" stroke-width="1.6" stroke-linecap="round">
+    <path d="M274 258v-2.6a3 3 0 0 1 6 0V258" />
+    <rect x="273" y="258" width="8" height="6" rx="1.4" />
+    <path d="M314 384v-2.6a3 3 0 0 1 6 0V384" />
+    <rect x="313" y="384" width="8" height="6" rx="1.4" />
+  </g>
+
+  <!-- canary badge -->
+  <g font-family="'JetBrains Mono', monospace" font-size="9.5">
+    <rect x="560" y="392" width="96" height="24" rx="12" fill="#7d9a19" fill-opacity="0.12" stroke="#7d9a19" stroke-opacity="0.4" />
+    <text x="574" y="408" fill="#7d9a19">CANARY 25%</text>
+  </g>
+
+  <!-- audit bar -->
+  <g>
+    <rect x="96" y="452" width="528" height="46" rx="16" fill="url(#panel)" stroke="#0e201c" stroke-opacity="0.14" filter="url(#soft)" />
+    <g font-family="'JetBrains Mono', monospace" font-size="9.5" letter-spacing="0.5">
+      <circle cx="122" cy="475" r="4" fill="#0a958a" />
+      <text x="134" y="479" fill="#0e201c">AUDIT</text>
+      <circle cx="224" cy="475" r="4" fill="#2f5fc8" />
+      <text x="236" y="479" fill="#0e201c">METERING</text>
+      <circle cx="356" cy="475" r="4" fill="#7d9a19" />
+      <text x="368" y="479" fill="#0e201c">VERSION PIN</text>
+      <circle cx="492" cy="475" r="4" fill="#d94a27" />
+      <text x="504" y="479" fill="#0e201c">TRACE</text>
+    </g>
+  </g>
+</svg>

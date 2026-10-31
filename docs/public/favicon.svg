@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Agent Skill Hub Patterns">
+  <defs>
+    <linearGradient id="fav-tile" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#17bfae" />
+      <stop offset="1" stop-color="#07877d" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#fav-tile)" />
+  <g stroke="#f2fbf8" stroke-width="3" stroke-linecap="round" opacity="0.85">
+    <path d="M32 32 17.2 17.2M32 32l14.8-14.8M32 32 17.2 46.8M32 32l14.8 14.8" />
+  </g>
+  <g fill="#f2fbf8">
+    <rect x="12.8" y="12.8" width="8.8" height="8.8" rx="2.6" opacity="0.9" />
+    <rect x="42.4" y="12.8" width="8.8" height="8.8" rx="2.6" opacity="0.62" />
+    <rect x="12.8" y="42.4" width="8.8" height="8.8" rx="2.6" opacity="0.62" />
+    <rect x="42.4" y="42.4" width="8.8" height="8.8" rx="2.6" opacity="0.9" />
+  </g>
+  <rect x="22.8" y="22.8" width="18.4" height="18.4" rx="6.2" fill="#f2fbf8" />
+  <g fill="#07877d">
+    <rect x="27.2" y="27.2" width="4.4" height="4.4" rx="1.4" />
+    <rect x="32.4" y="27.2" width="4.4" height="4.4" rx="1.4" opacity="0.55" />
+    <rect x="27.2" y="32.4" width="4.4" height="4.4" rx="1.4" opacity="0.55" />
+    <rect x="32.4" y="32.4" width="4.4" height="4.4" rx="1.4" />
+  </g>
+</svg>
